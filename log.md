@@ -1,30 +1,39 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: September 23, 2018 
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Given two arrays of integers output the smallest number in the
+first array not present in the second one.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**specifications**: Input Specification: 
+The first line contains the size N1 of the first array.
+Next line give the contents of the first array.
+Next line contains the size N2 of the second array.
+Next line give the contents of the second array.
 
-**Link to work:** [Calculator App](http://www.example.com)
+Output Format:
+Output must be a single number which is the smallest number occurring
+in the first array that does not occur in the second. In case there is
+no such number, output NO.
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+Variable Constraints:
+The sizes of the arrays are smaller than 20.
+Each array entry is an integer which fits an int data type.
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+Example:
+Input:
+3
+2 3 4
+4
+1 3 5 7
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+Output: 2
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+Input
+1
+1
+2
+1 2
+Output: NO
 
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+**work:** day1.c 
