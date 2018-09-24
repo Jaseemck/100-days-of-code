@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 0: September 23, 2018 
+### Day 1: September 23, 2018 
 
 **Today's Progress**: Given two arrays of integers output the smallest number in the
 first array not present in the second one.
@@ -37,3 +37,24 @@ Input
 Output: NO
 
 **work:** day1.c 
+--------------------------------------------------------------------------------------------------------------------------------
+
+### Day 2: September 24, 2018 
+
+**Today's Progress**: Find the number of distinct numbers in a given sequence. The sequence need not be sorted.
+
+**specifications**:  Input
+The input consists of two lines.
+The first line consists of a positive number N. N is at most 1000.
+The second line consists of N numbers separated by spaces.
+
+Output
+The output should be the number of distinct elements in the sequence.
+
+Sample Input
+4
+1 2 3 1 
+
+Sample Output
+3
+**work:** day2.c 
